@@ -12,3 +12,5 @@ unstructured
 pypdf
 protobuf<4.0.0
 pysqlite3-binary
+torch
+torchvision
