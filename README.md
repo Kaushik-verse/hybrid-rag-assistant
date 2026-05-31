@@ -7,6 +7,57 @@ Built with Streamlit, Groq, and LangChain, this assistant processes complex prop
 
 ---
 
+## 🌐 Live Demo
+
+Try the deployed application here:
+
+Demo: https://hybrid-rag-assistant-dxrpvnpurkiwixnbsntq3c.streamlit.app/
+
+No setup required — simply upload documents and start querying.
+
+---
+
+## 📄 Sample Documents for Testing
+
+To quickly test the assistant, you can use the sample property documents included in the repository:
+
+- test_data/Whitefield_Tech_Park_ROI.pdf
+- test_data/Malabar_Heritage_Annex_Legal.pdf
+
+These documents are specifically designed to demonstrate:
+
+### Whitefield Property
+- ROI calculations
+- Rental yield analysis
+- Cash-on-cash return calculations
+- Investment-focused queries
+
+### Malabar Property
+- Heritage restrictions
+- Zoning regulations
+- Legal compliance analysis
+- Municipal case references
+
+You may also upload your own real estate PDFs, disclosures, legal documents, contracts, or property reports to analyze them using the Hybrid RAG pipeline.
+
+---
+
+## 🚀 Quick Start
+
+1. Open the live demo.
+2. Upload either:
+   - One of the sample PDFs from the test_data folder, or
+   - Your own property documents.
+3. Ask questions about:
+   - ROI and investment analysis
+   - Legal restrictions
+   - Zoning regulations
+   - Property comparisons
+   - Rental projections
+4. Receive grounded answers generated from the uploaded documents.
+
+---
+
 ## ✨ Key Features
 
 * **Multi-Format Ingestion:** Seamlessly parse and chunk live property URLs and complex PDF contracts/disclosures.
@@ -100,4 +151,13 @@ Once you have uploaded property documents, try these specific queries to see the
 
 ---
 
-*Created by Ch Kaushik*
+## 👨‍💻 Author
+
+**Ch Sai Kaushik**
+
+B.Tech CSE (Data Science), VIT Vellore
+
+- AI & Machine Learning Enthusiast
+- LLM Engineering & RAG Systems
+- Spring Boot Backend Developer
+- Data Science Student
