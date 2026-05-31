@@ -1,3 +1,8 @@
+import pysqlite3
+import sys
+
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import streamlit as st
 from rag import (
     process_inputs, generate_answer, clear_database,
@@ -12,19 +17,10 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-    .stApp {
-        background-color: #f5f5f7;
-    }
+    /* Chat input styling that respects native theming */
     .stChatInputContainer {
         border-radius: 20px;
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
-        background-color: rgba(255, 255, 255, 0.6);
-        border: 1px solid rgba(255, 255, 255, 0.2);
-    }
-    .stSidebar {
-        background-color: rgba(255, 255, 255, 0.8);
-        backdrop-filter: blur(10px);
+        border: 1px solid var(--primary-color);
     }
 </style>
 """, unsafe_allow_html=True)
